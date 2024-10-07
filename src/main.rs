@@ -3,6 +3,8 @@ mod base_traits;
 mod derive_traits;
 mod dyn_traits;
 mod overloading;
+mod iterator_trait;
+mod impltraits;
 
 fn main() {
     derive_traits::cmp_vals("metro", "Metr0");
