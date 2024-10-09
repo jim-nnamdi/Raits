@@ -7,7 +7,7 @@ pub fn _parse_csv<R: std::io::BufRead> (src:R) -> std::io::Result<Vec<Vec<String
         line.map(|line| {
             line.split(",").map(|entry| {
                 String::from(entry.trim())
-            }).collect()
+            }).collect()   
         })
     }).collect()
 }
